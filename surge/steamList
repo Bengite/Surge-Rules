@@ -1,3 +1,34 @@
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamcommunity.com
+# Steam 客戶端下載、更新（最重要）
+DOMAIN-SUFFIX, steamcontent.com, Steam
+DOMAIN-SUFFIX, steamserver.net, Steam
+DOMAIN-SUFFIX, steamusercontent.com, Steam
+DOMAIN-SUFFIX, steamcdn-a.akamaihd.net, Steam
+DOMAIN-SUFFIX, steampowered.com.edgesuite.net, Steam
+DOMAIN-SUFFIX, steamstat.us, Steam
+DOMAIN-SUFFIX, csgo.com, Steam
+DOMAIN-SUFFIX, steamchina.com, Steam                 # 國區完美加速器域名
+DOMAIN-SUFFIX, steamgames.com, Steam
+DOMAIN-SUFFIX, steamcommunity.com, Steam
+DOMAIN-SUFFIX, steamcdn.com, Steam
+
+# Steam 商店、社區、登錄
+DOMAIN, client-api.steamchina.com, Steam
+DOMAIN, steamcommunity.com, Steam
+DOMAIN, store.steampowered.com, Steam
+DOMAIN, api.steampowered.com, Steam
+DOMAIN, login.steampowered.com, Steam
+DOMAIN, help.steampowered.com, Steam
+
+# Steam 主要 IP 段（CDN + 後端服務器，涵蓋全球）
+IP-CIDR, 103.10.124.0/23, Steam, no-resolve
+IP-CIDR, 146.66.4.0/22, Steam, no-resolve
+IP-CIDR, 155.133.224.0/19, Steam, no-resolve
+IP-CIDR, 162.254.192.0/21, Steam, no-resolve
+IP-CIDR, 185.25.180.0/22, Steam, no-resolve
+IP-CIDR, 190.217.32.0/19, Steam, no-resolve
+IP-CIDR, 208.78.160.0/19, Steam, no-resolve
+
+# 完美世界（國服 Steam）
+DOMAIN-SUFFIX, wmsj.cn, Steam
+DOMAIN-SUFFIX, perfectworld.com, Steam
+DOMAIN-SUFFIX, steampowered.com.cn, Steam

@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,stboy.net
 DOMAIN-SUFFIX,shibashuwu.net
 
+#影音
+DOMAIN-SUFFIX,olevod.com
+DOMAIN-SUFFIX,iyf.tv
+
 #下载
 DOMAIN-SUFFIX,uploadgig.com
 DOMAIN-SUFFIX,nitroflare.com
